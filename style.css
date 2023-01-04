@@ -19,7 +19,6 @@ body {
 
 h1 {
   font-weight: 100;
-  margin-left: 1rem;
   font-size: 2.5rem;
 }
 
@@ -85,11 +84,23 @@ button {
 button:hover i  {
   transform: scale(1.6);
   transition: all 0.4s ease-in-out;
-  
 }
 
-button:focus,
+
 button:hover {
   color: #eee;
   transform: scale(1.4);
 }
+
+.weather .flex-weather {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+
